@@ -1,39 +1,84 @@
-# Intelligent Complaint Analysis for Financial Services
+# Time Series Forecasting and Portfolio Optimization
 
+![GitHub](https://img.shields.io/badge/Python-3.8%2B-blue)
+![GitHub](https://img.shields.io/badge/License-MIT-green)
+![GitHub](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## Overview
+## 📑 Table of Contents
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Repository Structure](#-repository-structure)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Results](#-results)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [Contact](#-contact)
 
-CrediTrust Financial is a leading digital finance company serving East Africa, offering:
-- Credit Cards
-- Personal Loans
-- Buy Now, Pay Later (BNPL)
-- Savings Accounts
-- Money Transfers
+---
 
-With over 500,000 users across three countries, CrediTrust receives thousands of customer complaints monthly via in-app channels, email, and regulatory portals.
+## 📌 Overview
+This project focuses on leveraging **time series forecasting** and **portfolio optimization** to enhance investment strategies for **Guide Me in Finance (GMF) Investments**. Using historical financial data for **Tesla (TSLA)**, **Vanguard Total Bond Market ETF (BND)**, and **S&P 500 ETF (SPY)**, the project aims to:
+- Predict future stock prices using advanced forecasting models like **ARIMA**, **SARIMA**, and **LSTM**.
+- Optimize portfolio allocation to maximize returns while minimizing risks.
+- Provide actionable insights for financial analysts to make data-driven investment decisions.
 
-## Project Mission
+---
 
-This project aims to develop an internal AI tool that transforms unstructured complaint data into actionable insights for internal stakeholders. The tool enables users like Asha, a Product Manager, to quickly identify and address emerging issues without manual review.
+## 🚀 Key Features
+- **Data Preprocessing**: Clean and prepare historical financial data for analysis.
+- **Exploratory Data Analysis (EDA)**: Visualize trends, volatility, and key metrics like Value at Risk (VaR) and Sharpe Ratio.
+- **Time Series Forecasting**: Implement ARIMA, SARIMA, and LSTM models to predict future stock prices.
+- **Portfolio Optimization**: Optimize asset allocation using covariance matrices and risk-return analysis.
+- **Visualizations**: Generate interactive charts and graphs for forecasts and portfolio performance.
 
-## Key Features
+---
 
-- **Automated Complaint Analysis:** Converts raw complaint data into structured, searchable insights.
-- **Natural Language Querying:** Allows non-technical teams to ask direct questions and receive synthesized, evidence-backed answers.
-- **Real-Time Trend Detection:** Proactively identifies major complaint trends to enable faster response and resolution.
+## 📂 Repository Structure
+```bash
+  ----------------------
+   ```
+---
 
-## Success Metrics (KPIs)
-
-- **Faster Trend Identification:** Reduce time to identify major complaint trends from days to minutes.
-- **Empower Non-Technical Teams:** Enable teams like Support and Compliance to get answers without a data analyst.
-- **Proactive Problem Solving:** Shift from reactive to proactive issue identification and resolution based on real-time feedback.
-
-## Getting Started
-
+## 🛠️ Installation
 1. Clone the repository:
-    git clone https://github.com/Teddy-GH/Intelligent-Complaint-Analysis-for-Financial-Services.git
+   ```bash
+   git clone https://github.com/Teddy-GH/TimeSeries-Portfolio-Optimization.git
+   ```
+2.Navigate to the project directory:
 
-2. Follow the setup instructions in the [Installation Guide](./docs/INSTALL.md) (if available).
+```bash
+  cd TimeSeries-Portfolio-Optimization
+   ```
+3.Install the required dependencies:
+```bash
+ pip install -r requirements.txt
+   ```
+🧑‍💻 Usage
+1. Data Preprocessing:
 
+Run notebooks/01_Data_Preprocessing.ipynb to clean and prepare the data.
+
+2. Exploratory Data Analysis:
+
+Use notebooks/02_EDA.ipynb to visualize trends and analyze volatility.
+
+3. Time Series Forecasting:
+
+Train and evaluate models in notebooks/03_TimeSeries_Forecasting.ipynb.
+
+4. Portfolio Optimization:
+
+Optimize asset allocation in notebooks/04_Portfolio_Optimization.ipynb.
+
+📊 Results
+Forecasted stock prices with confidence intervals.
+
+Optimized portfolio allocations for maximum Sharpe Ratio.
+
+Visualizations of portfolio performance and risk-return analysis.
+
+🙏 Acknowledgments
+Data sourced from YFinance.
 
 
